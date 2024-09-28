@@ -18,3 +18,16 @@ actix-web = "4.9.0"
 
 コードが書けたら`cargo run`で、コンパイル & mainの実行
 
+```rs
+#[cfg(test)]
+mod endotestdayo {
+    #[test]
+    fn it_works() {
+        assert_eq!(2 + 2, 4);
+    }
+}
+```
+
+`#`付きの行は、コンパイラに対する命令と捉えてもいい。
+
+
