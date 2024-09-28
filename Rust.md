@@ -14,6 +14,15 @@ actix-web = "4.9.0"
 
 `cargo add tokio --features full`は、機能を指定する。特に指定しなかったらミニマム機能。
 
+`cargo add`はプロジェクトに対して追加、`cargo install`はローカルPCにインストールする。
+Hot Reload↓
+```
+cargo install cargo-watch
+
+サーバー起動コマンド
+cargo watch -x run
+```
+
 ---
 
 コードが書けたら`cargo run`で、コンパイル & mainの実行
